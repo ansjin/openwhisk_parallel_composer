@@ -12,7 +12,7 @@ async function main(params) {
     let mongo_pass = params["mongo_pass"];
     if (product_id_given && mongo_host_ip && db_name && collection_name && mongo_user && mongo_pass) {
 
-        let url = 'mongodb://' + mongo_user + ':' + mongo_pass + '@' + mongo_host_ip + ':27017?authMechanism=SCRAM-SHA-1&authSource=admin';
+        let url = 'mongodb://' + mongo_user + ':' + mongo_pass + '@' + mongo_host_ip + ':27017?authMechanism=SCRAM-SHA-1&authSource=ccs';
         let client, db;
         try {
             client = await MongoClient.connect(url, {useNewUrlParser: true});
