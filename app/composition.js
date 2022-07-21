@@ -7,5 +7,6 @@ module.exports = composer.parallel(
     composer.action('product-price'),
     composer.action('product-name'),
     composer.action('product-url'),
+    composer.action('group'),
 );
 
