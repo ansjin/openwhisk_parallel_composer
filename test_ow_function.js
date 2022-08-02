@@ -20,11 +20,11 @@ function main(params) {
         },
         "name": "Deepak-Raj",
         "product_id": 2,
-        "mongo_host_ip": "",
+        "mongo_host_ip": "138.246.236.255",
         "db": "ccs",
         "collection": "products",
         "mongo_user": "root",
-        "mongo_pass": "",
+        "mongo_pass": "ccs_root_Pass_7631",
         "group":"74",
         
     }
